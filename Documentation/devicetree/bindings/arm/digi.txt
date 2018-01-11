@@ -1,0 +1,22 @@
+Digi i.MX Platforms Device Tree Bindings
+------------------------------------------
+
+ConnectCard i.MX28 JumpStart Kit
+Required root node properties:
+    - compatible = "digi,ccardimx28js", "digi,ccardimx28", "fsl,imx28";
+
+ConnectCard i.MX28 module
+Required root node properties:
+    - compatible = "digi,ccardimx28", "fsl,imx28";
+
+ConnectPort X2
+Required root node properties:
+    - compatible = "digi,cpx2", "fsl,imx28";
+
+ConnectCard 6 module
+Required root node properties:
+    - compatible = "digi,ccimx6", "fsl,imx6q";
+
+ConnectCard 6 SBC
+Required root node properties:
+    - compatible = "digi,ccimx6sbc", "fsl,imx6q";
